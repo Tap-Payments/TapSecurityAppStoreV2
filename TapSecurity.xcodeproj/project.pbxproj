@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA579FB5C3D952BDACF3B3D /* Pods_TapSecurity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E63C9E4E61D0AF3ED31EEE0 /* Pods_TapSecurity.framework */; };
+		A45B00F61F47236A002B0D44 /* TapSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = A45B00F41F47236A002B0D44 /* TapSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A45B00FD1F472464002B0D44 /* TapSecurityAppStoreV2.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A45B00FC1F472464002B0D44 /* TapSecurityAppStoreV2.podspec */; };
+		A45B00FF1F47251E002B0D44 /* TapSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45B00FE1F47251E002B0D44 /* TapSecurity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E63C9E4E61D0AF3ED31EEE0 /* Pods_TapSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83381ADFD9C839A8083991F7 /* Pods-TapSecurity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSecurity.release.xcconfig"; path = "Pods/Target Support Files/Pods-TapSecurity/Pods-TapSecurity.release.xcconfig"; sourceTree = "<group>"; };
+		A45B00F11F47236A002B0D44 /* TapSecurity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapSecurity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45B00F41F47236A002B0D44 /* TapSecurity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapSecurity.h; sourceTree = "<group>"; };
+		A45B00F51F47236A002B0D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45B00FC1F472464002B0D44 /* TapSecurityAppStoreV2.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TapSecurityAppStoreV2.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A45B00FE1F47251E002B0D44 /* TapSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapSecurity.swift; sourceTree = "<group>"; };
+		A45B01011F472564002B0D44 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		A81F5B8B732E38D5D2CFB627 /* Pods-TapSecurity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TapSecurity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TapSecurity/Pods-TapSecurity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A45B00ED1F47236A002B0D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA579FB5C3D952BDACF3B3D /* Pods_TapSecurity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A45B00E71F47236A002B0D44 = {
+			isa = PBXGroup;
+			children = (
+				A45B00FC1F472464002B0D44 /* TapSecurityAppStoreV2.podspec */,
+				A45B01001F472564002B0D44 /* CCommonCrypto */,
+				A45B00F31F47236A002B0D44 /* TapSecurity */,
+				A45B00F21F47236A002B0D44 /* Products */,
+				D2581E3D01493F93A95B84BB /* Pods */,
+				A4A09B9065E8AFA379735094 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A45B00F21F47236A002B0D44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45B00F11F47236A002B0D44 /* TapSecurity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A45B00F31F47236A002B0D44 /* TapSecurity */ = {
+			isa = PBXGroup;
+			children = (
+				A45B00FE1F47251E002B0D44 /* TapSecurity.swift */,
+				A45B00F41F47236A002B0D44 /* TapSecurity.h */,
+				A45B00F51F47236A002B0D44 /* Info.plist */,
+			);
+			path = TapSecurity;
+			sourceTree = "<group>";
+		};
+		A45B01001F472564002B0D44 /* CCommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				A45B01011F472564002B0D44 /* module.modulemap */,
+			);
+			path = CCommonCrypto;
+			sourceTree = "<group>";
+		};
+		A4A09B9065E8AFA379735094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E63C9E4E61D0AF3ED31EEE0 /* Pods_TapSecurity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2581E3D01493F93A95B84BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81F5B8B732E38D5D2CFB627 /* Pods-TapSecurity.debug.xcconfig */,
+				83381ADFD9C839A8083991F7 /* Pods-TapSecurity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A45B00EE1F47236A002B0D44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45B00F61F47236A002B0D44 /* TapSecurity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A45B00F01F47236A002B0D44 /* TapSecurity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A45B00F91F47236A002B0D44 /* Build configuration list for PBXNativeTarget "TapSecurity" */;
+			buildPhases = (
+				E4494FCDE19A7D7E68102636 /* [CP] Check Pods Manifest.lock */,
+				A45B00EC1F47236A002B0D44 /* Sources */,
+				A45B00ED1F47236A002B0D44 /* Frameworks */,
+				A45B00EE1F47236A002B0D44 /* Headers */,
+				A45B00EF1F47236A002B0D44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapSecurity;
+			productName = TapSecurity;
+			productReference = A45B00F11F47236A002B0D44 /* TapSecurity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A45B00E81F47236A002B0D44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Tap Payments";
+				TargetAttributes = {
+					A45B00F01F47236A002B0D44 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = G46S76PUH4;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A45B00EB1F47236A002B0D44 /* Build configuration list for PBXProject "TapSecurity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = A45B00E71F47236A002B0D44;
+			productRefGroup = A45B00F21F47236A002B0D44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45B00F01F47236A002B0D44 /* TapSecurity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A45B00EF1F47236A002B0D44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45B00FD1F472464002B0D44 /* TapSecurityAppStoreV2.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E4494FCDE19A7D7E68102636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TapSecurity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A45B00EC1F47236A002B0D44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45B00FF1F47251E002B0D44 /* TapSecurity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A45B00F71F47236A002B0D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				"SWIFT_INCLUDE_PATHS[sdk=appletvos*]" = "${SRCROOT}/CommonCrypto/appletvos";
+				"SWIFT_INCLUDE_PATHS[sdk=appletvsimulator*]" = "${SRCROOT}/CommonCrypto/appletvsimulator";
+				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "${SRCROOT}/CommonCrypto/iphoneos";
+				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "${SRCROOT}/CommonCrypto/iphonesimulator";
+				"SWIFT_INCLUDE_PATHS[sdk=macosx*]" = "${SRCROOT}/CommonCrypto/macosx";
+				"SWIFT_INCLUDE_PATHS[sdk=watchos*]" = "${SRCROOT}/CommonCrypto/watchos";
+				"SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]" = "${SRCROOT}/CommonCrypto/watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A45B00F81F47236A002B0D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				"SWIFT_INCLUDE_PATHS[sdk=appletvos*]" = "${SRCROOT}/CommonCrypto/appletvos";
+				"SWIFT_INCLUDE_PATHS[sdk=appletvsimulator*]" = "${SRCROOT}/CommonCrypto/appletvsimulator";
+				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "${SRCROOT}/CommonCrypto/iphoneos";
+				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "${SRCROOT}/CommonCrypto/iphonesimulator";
+				"SWIFT_INCLUDE_PATHS[sdk=macosx*]" = "${SRCROOT}/CommonCrypto/macosx";
+				"SWIFT_INCLUDE_PATHS[sdk=watchos*]" = "${SRCROOT}/CommonCrypto/watchos";
+				"SWIFT_INCLUDE_PATHS[sdk=watchsimulator*]" = "${SRCROOT}/CommonCrypto/watchsimulator";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A45B00FA1F47236A002B0D44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81F5B8B732E38D5D2CFB627 /* Pods-TapSecurity.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapSecurity/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapSecurityV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A45B00FB1F47236A002B0D44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83381ADFD9C839A8083991F7 /* Pods-TapSecurity.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G46S76PUH4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TapSecurity/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = company.tap.TapSecurityV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A45B00EB1F47236A002B0D44 /* Build configuration list for PBXProject "TapSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45B00F71F47236A002B0D44 /* Debug */,
+				A45B00F81F47236A002B0D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45B00F91F47236A002B0D44 /* Build configuration list for PBXNativeTarget "TapSecurity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45B00FA1F47236A002B0D44 /* Debug */,
+				A45B00FB1F47236A002B0D44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A45B00E81F47236A002B0D44 /* Project object */;
+}

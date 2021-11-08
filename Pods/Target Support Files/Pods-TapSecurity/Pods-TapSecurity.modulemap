@@ -1,0 +1,6 @@
+framework module Pods_TapSecurity {
+  umbrella header "Pods-TapSecurity-umbrella.h"
+
+  export *
+  module * { export * }
+}
